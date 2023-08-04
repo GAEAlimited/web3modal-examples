@@ -11,7 +11,7 @@ import "../styles.css";
 
 // 1. Get projectID at https://cloud.walletconnect.com
 if (!process.env.NEXT_PUBLIC_PROJECT_ID) {
-  throw new Error("ee6f3e6213a3233a64177f9b161cf6cb");
+  throw new Error("You need to provide NEXT_PUBLIC_PROJECT_ID env variable");
 }
 const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
 
